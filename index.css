@@ -1,0 +1,128 @@
+#navbar{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(31, 30, 30);
+}
+#navbar h1{
+    margin-right: 700px;
+    font-weight: 900;
+   
+}
+#list{background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 4px;
+    right:116px;
+    top: 83px;
+    display:flex;
+    flex-direction: column;
+    position: absolute; 
+    height: 300px;
+    width: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    overflow-y: scroll;
+    padding-left: 5px;
+}
+
+#selectedMovie img{
+    text-align: center;
+    height: 280px;
+    width: auto;
+}
+
+#selectedMovie{
+    gap: 4px;
+    color: white;
+    display: none;
+    border-radius: 4px;
+    right: 460px;
+    top: 140px;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.952);
+border-radius: 5px;
+padding: 13px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#cross{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    height:30px;
+    width:40px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    right:460px;
+    top: 125px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+#navbar  *{
+    
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+#navbar h3{
+    margin:auto;
+    padding:10px
+}
+#slideshow>img{
+    width: 100%; 
+    height: 400px;
+   
+}
+#slideshow{
+    background-color: black;
+}
+
+.movdiv>img{
+    height: 150px;
+    width: 95px;
+    
+}
+.info>img{
+     height: auto;
+     width: 15px;
+}
+
+.movdiv{
+    display: flex;
+    margin: 30px 0px 0px 80px;
+}
+
+.info p,img{
+    display: inline-block;
+}
+
+.info p,h2{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: black;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+#sort-buttons{
+   
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(41, 39, 39);
+}
+
